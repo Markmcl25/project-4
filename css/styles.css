@@ -10,3 +10,17 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
+/* Remove list-style (dots) from the navbar items */
+.navbar-nav {
+    list-style: none; /* Remove default list styling */
+    padding-left: 0; /* Remove left padding */
+}
+
+.navbar-nav .nav-item {
+    display: inline-block; /* Ensure items are displayed inline */
+}
+
+.navbar-brand, .navbar-nav {
+    align-items: center;
+}
